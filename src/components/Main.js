@@ -15,7 +15,7 @@ return <section className="flex flex-col-reverse md:flex-row px-5  py-25 md:py-2
                   <a href="http://www.afsal@360.com/" className="hover:text-white"><AiOutlineGithub size={40}/></a>
            </div>
          </div>
-         <img className="md:w-1/3 " src={HeroImg} alt="hero" />
+         <img className="md:w-1/3 " src={HeroImg} alt="Main-image" />
        </section>
 
     }

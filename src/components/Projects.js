@@ -13,21 +13,21 @@ export default function Projects() {
        <div className='w-full'>
          <div className='flex px-10 gap-5 flex-col md:flex-row'>
           <div className='relative'>
-          <img className='h-[200px] w-[500px]' src={image1}/>
+          <img className='h-[200px] w-[500px]' src={image1} alt='image-prog'/>
           <div className='project-desc'>
             <p className='text-center py-5'>about the projects of me to in this list of the metor</p>
           </div>
           </div>
 
           <div className='relative'>
-          <img className='h-[200px]  w-[500px]' src={image2}/>
+          <img className='h-[200px]  w-[500px]' src={image2} alt='image-prog'/>
           <div className='project-desc'>
             <p className='text-center py-5'>about the projects of me to in this list of the metor</p>
           </div>
           </div>
           
           <div className='relative'>
-          <img className='h-[200px]  w-[500px]' src={image3}/>
+          <img className='h-[200px]  w-[500px]' src={image3} alt='image-prog'/>
           <div className='project-desc'>
             <p className='text-center py-5'>about the projects of me to in this list of the metor</p>
           </div>

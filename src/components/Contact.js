@@ -23,7 +23,7 @@ export default function contact() {
                 
             </div>
             <div className=" w-1/2 hidden md:block">
-                   <iframe className="w-[400px] h-[250px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62577.31501718881!2d79.65651429239612!3d11.401576679475548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54c23aa1bce10b%3A0xe1a29e91a8ec81aa!2sChidambaram%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738379003743!5m2!1sen!2sin" title="Descriptive title for the iframe content"/>
+                   <iframe className="w-[400px] h-[250px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62577.31501718881!2d79.65651429239612!3d11.401576679475548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54c23aa1bce10b%3A0xe1a29e91a8ec81aa!2sChidambaram%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1738379003743!5m2!1sen!2sin" title="Descriptive title for the iframe content" alt="map"/>
             </div>
         </section>
     );
