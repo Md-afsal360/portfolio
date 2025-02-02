@@ -3,7 +3,7 @@ import image2 from '../assets/food-ecommerce.jpg';
 import image3 from '../assets/website-blog.jpg';
 
 export default function Projects() {
-  return <section className="flex flex-col bg-primary  justify-center h-full pb-5">
+  return <section className="flex flex-col bg-primary  justify-center h-full pb-5" id='projects'>
        <div className='w-full'>
          <div className='flex flex-col py-5 items-center justify-center'>
           <h1 className='text-4xl text-white border-b-2 mb-5 w-[135px] font-bold border-secondary'><span className='text-black font-bold'>Pro</span>jects</h1>

@@ -19,7 +19,7 @@ header ul li{
 
 .mobile-nav li{
     
-        @apply w-full h-full text-center border-b-2;
+        @apply w-full h-full text-center border-b-2 scale-75 duration-500 hover:scale-100;
     
 }
 
@@ -39,4 +39,8 @@ header ul li{
 
 .btn{
     @apply bg-primary px-5 py-2 font-bold  hover:border-2 border-white rounded-3xl;
+}
+
+html{
+    scroll-behavior: smooth;
 }
