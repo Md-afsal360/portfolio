@@ -22,3 +22,21 @@ header ul li{
         @apply w-full h-full text-center border-b-2;
     
 }
+
+.project-desc{
+    @apply absolute left-0 right-0 bottom-0 top-0 px-5 bg-secondary opacity-0 duration-500 hover:opacity-100 cursor-pointer scale-75 hover:scale-100;
+}
+
+.contact{
+    transition: all 0.5s ease-in-out;
+}
+
+.contact:hover{
+    transform: scale(1.1);
+    transform: rotate(5deg);
+    display: flex;
+}
+
+.btn{
+    @apply bg-primary px-5 py-2 font-bold  hover:border-2 border-white rounded-3xl;
+}

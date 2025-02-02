@@ -18,8 +18,9 @@ export default function Header() {
       <ul className="flex flex-col text-white mobile-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
         <li><a href="#">Projects</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li> 
       </ul>
       </nav>}
       <button onClick={()=>settogglemenu(!togglemenu)} className="block md:hidden"><Bars3Icon className='text-white h-6 w-6'/></button>
