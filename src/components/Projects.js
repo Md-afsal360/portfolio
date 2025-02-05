@@ -8,17 +8,17 @@ export default function Projects() {
       projects: [
         {
           image: image1,
-          description:'about the projects of me to in this list of the metor',
+          description:'Built an e-commerce site with Spring Boot, SQL, and React for seamless shopping and secure transactions.',
           link:''
         },
         {
           image: image2,
-          description:'about the projects of me to in this list of the metor',
+          description:'Developed an employee management app using Laravel, SQL, and PHP for efficient role manage with CRUD operations.',
           link:''
         },
         {
           image: image3,
-          description:'about the projects of me to in this list of the metor',
+          description:'Developed a real-time messaging app using React, Laravel, and Tailwind CSS, enabling communication with response UI.',
           link:''
         }
       ]
@@ -35,7 +35,7 @@ export default function Projects() {
           {config.projects.map((project)=>(
             <div className='relative'>
           <img className='h-[200px] w-[500px]' src={project.image} alt='image-prog'/>
-          <div className='project-desc'>
+          <div className='project-desc z-2'>
             <p className='text-center py-5'>{project.description}</p>
             <a href={project.link} className='text-center text-white bg-secondary py-2 px-5 rounded-md btn'>View Project</a>
           </div>

@@ -24,7 +24,7 @@ header ul li{
 }
 
 .project-desc{
-    @apply absolute left-0 right-0 bottom-0 top-0 px-5 bg-secondary opacity-0 duration-500 hover:opacity-100 cursor-pointer scale-75 hover:scale-100;
+    @apply absolute left-0 right-0 bottom-0 top-0 px-5 bg-secondary  opacity-0 duration-500 hover:opacity-100  cursor-pointer  scale-75 hover:scale-100;
 }
 
 .contact{
@@ -38,7 +38,7 @@ header ul li{
 }
 
 .btn{
-    @apply bg-primary px-5 py-2 font-bold  hover:border-2 border-white rounded-3xl;
+    @apply bg-primary px-5 py-2 font-bold  hover:border-2 border-white rounded-3xl text-center text-white;
 }
 
 html{

@@ -7,7 +7,7 @@ return <section className="flex flex-col-reverse md:flex-row px-5  py-25 md:py-2
            <h1 className="text-white text-6xl font-Main-Font">Hi, <br/> Im<span className="text-black">Mohamed</span> Afsal
            <p className="text-2xl">Im a Full-stack developer</p>
            </h1>
-           <div className="flex gap-5 py-10">
+           <div className="flex gap-2 md:gap-5  py-10">
                   <a href=" https://twitter.com" className="pr-5 hover:text-white"><AiOutlineTwitter size={40}/></a>
                   <a href="https://www.facebook.com/a.m.afsal/" className="pr-5 hover:text-white"><AiOutlineFacebook size={40}/></a>
                   <a href="https://www.instagram.com/leo_afsal_ma/" className="pr-5 hover:text-white"><AiOutlineInstagram size={40}/></a>
