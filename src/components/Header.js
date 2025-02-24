@@ -1,4 +1,4 @@
-import { Bars3Icon, Brs3Icon } from '@heroicons/react/24/solid';
+import { Bars3Icon } from '@heroicons/react/24/solid';
 import React, { useState } from 'react';
 
 export default function Header() {

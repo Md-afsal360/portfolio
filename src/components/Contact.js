@@ -29,7 +29,7 @@ export default function contact() {
                 
             </div>
             <div className=" w-1/2 hidden md:block">
-            <iframe className="w-[500px] h-[200px]" src="https://lottie.host/embed/e715f12f-2204-4963-925c-78c298f3db22/m76ZoynbRz.lottie"></iframe>
+            <iframe className="w-[500px] h-[200px]" src="https://lottie.host/embed/e715f12f-2204-4963-925c-78c298f3db22/m76ZoynbRz.lottie" title="lottie-player"/>
             </div>
         </section>
     );
