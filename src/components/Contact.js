@@ -18,11 +18,11 @@ export default function contact() {
                 </div>
                 
                 <div className="hover:text-white mb-5 contact" >
-                <a className="font-bold" href={config.contact.email}><MdOutlineMail size={30}/>afsalvalt246@gmail.com</a>
+                <a className="font-bold" href={config.contact.email}><MdOutlineMail size={30}/>afsal1103@gmail.com</a>
                 </div>
                 
                 <div className="hover:text-white mb-5 contact">
-                <p className="font-bold"><IoLocationOutline size={30}/>No-33,Makkha Street,Chidambaram,608001</p>
+                <p className="font-bold"><IoLocationOutline size={30}/>VillaNo-13,20A Street,Al Rashidia</p>
                 </div>
                 
                
